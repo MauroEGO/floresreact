@@ -1,5 +1,6 @@
 import logo from './logo.svg';
 import './App.css';
+import Button from './components/index';
 
 function App() {
   return (
@@ -9,6 +10,9 @@ function App() {
         <p>
           Edit <code>src/App.js</code> and save to reload.
         </p>
+        <Button text=" boton boton boton " onClick={()=> alert('click click click')}/>
+        <Button text=" :| " onClick={()=> alert(':D')}/>
+        <Button text=" 2x2 2+2 2² " onClick={()=> alert('4')}/>
         <a
           className="App-link"
           href="https://reactjs.org"
